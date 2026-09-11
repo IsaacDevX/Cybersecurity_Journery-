@@ -22,4 +22,37 @@ This file documents my foundational Python knowledge, including code snippets I 
   if age >= 18:
       print("Adult")
   else:
-      print("Minor")
+## For loop
+for fruit in fruits:
+    print(fruit)
+## While loop 
+  count = 0
+while count < 5:
+    print(count)
+    count += 1
+## Functions
+def greet(name):
+    print("Hello", name)
+
+greet("Isaac")  # Output: Hello Isaac
+## File Handing 
+with open("file.txt", "r") as f:
+    content = f.read()
+    print(content)
+## Write to a file 
+with open("newfile.txt", "w") as f:
+    f.write("Hello World")
+## Automated Project
+import os
+import shutil
+
+source = "."
+destination = "organized"
+
+if not os.path.exists(destination):
+    os.mkdir(destination)
+
+for file in os.listdir(source):
+    if file.endswith(".txt"):
+        shutil.move(file, destination)
+        
