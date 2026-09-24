@@ -35,3 +35,6 @@
 - [ ] Ping test
 - [ ] Traceroute
 - [ ] Wireshark capture
+## Hands On Labs 
+Ping test: Sent 3 packets to Google, 0% loss, avg time 117ms. Confirms ICMP works and measures latency.
+     · Traceroute test: Mapped path to Google. 8 hops total. Saw hidden routers (* * *) and noticed latency increase at the destination (229ms).
