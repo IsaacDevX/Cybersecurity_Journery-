@@ -1,6 +1,6 @@
 # Security Controls
 
-**Date started:** [today]
+**Date started:** 2026-10-12
 **Source:** Professor Messer Security+ SY0-701
 
 ## What Security Controls Are
